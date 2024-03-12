@@ -6,14 +6,17 @@ public class KatoExec_Chapter18 {
 		
 		//インスタンス作成
 		KatoTaro_Chapter18 taro = new KatoTaro_Chapter18();
-		taro.execIntroduce("太郎");
+		taro.setGivenName("太郎");
+		taro.execIntroduce(taro.getGivenName());
 
 		KatoIchiro_Chapter18 ichiro = new KatoIchiro_Chapter18();
-		ichiro.execIntroduce("一郎");
-		
+		ichiro.setGivenName("一郎");
+		ichiro.execIntroduce(ichiro.getGivenName());
+
 		KatoHanako_Chapter18 hanako = new KatoHanako_Chapter18();
-		hanako.execIntroduce("花子");
-		
+		hanako.setGivenName("花子");
+		hanako.execIntroduce(hanako.getGivenName());
+
 	}
 
 }
