@@ -3,7 +3,6 @@ package kadai_018;
 public class KatoTaro_Chapter18 extends Kato_Chapter18 {
 	
 	public KatoTaro_Chapter18(){
-		this.givenName="太郎";
 	}
 	
 	//ゲッター
@@ -13,7 +12,7 @@ public class KatoTaro_Chapter18 extends Kato_Chapter18 {
 	
 	//セッター
 	public void setGivenName(String givenName) {
-		this.givenName=givenName;
+		this.givenName="太郎";
 	}
 	
 	//抽象メソッドのオーバーライド
