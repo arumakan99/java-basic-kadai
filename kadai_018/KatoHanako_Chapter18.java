@@ -7,12 +7,12 @@ public class KatoHanako_Chapter18 extends Kato_Chapter18{
 	
 	//ゲッター
 	public String getGivenName() {
-		return givenName="花子";
+		return givenName;
 	}
 	
 	//セッター
 	public void setGivenName(String givenName) {
-		this.givenName=givenName;
+		this.givenName="花子";
 	}
 	
 	//抽象メソッドのオーバーライド
